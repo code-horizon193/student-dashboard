@@ -191,7 +191,6 @@ header .content .controlls .profile .pro-info >span:hover{
 
 .static .box{
     width: 24%;
-    /* flex: 1; */
     padding: 15px;
     border-radius: 10px;
 }
@@ -611,8 +610,12 @@ header .content .controlls .profile .pro-info >span:hover{
         font-size: 17px;
     }
 }
-@media screen and (max-width: 360px){
+
+@media screen and (max-width: 450px) {
     .static .box{
         width: 100%;
     }
-}
+    .static{
+        flex-direction: column
+    }
+};
